@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>librarydamin</class>
+ <widget class="QWidget" name="librarydamin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>621</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>110</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>添加图书</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>180</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>修改图书</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>250</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>删除图书</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>480</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>退出登录</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <attribute name="title">
+     <string>图书</string>
+    </attribute>
+   </widget>
+  </widget>
+  <zorder>tabWidget</zorder>
+  <zorder>tableView_3</zorder>
+  <zorder>add_3</zorder>
+  <zorder>change_3</zorder>
+  <zorder>delete_3</zorder>
+  <zorder>exit_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

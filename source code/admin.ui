@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QWidget" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Administrator</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">MyLabel { qproperty-pixmap: url(pixmap.png); }</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>图书管理员</string>
+    </attribute>
+    <widget class="QPushButton" name="exit_1">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>450</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>退出登录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="change_1">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>150</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>修改图书管理员</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="add_1">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>80</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>添加图书管理员</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>621</width>
+       <height>451</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delete_1">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>220</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>删除图书管理员</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>读者</string>
+    </attribute>
+    <widget class="QTableView" name="tableView_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>621</width>
+       <height>451</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="add_2">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>80</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>添加读者</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="change_2">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>150</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>修改读者</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delete_2">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>220</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>删除读者</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exit_2">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>450</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>退出登录</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
